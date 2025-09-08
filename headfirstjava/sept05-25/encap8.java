@@ -5,8 +5,8 @@ class ATM{
 
   public ATM(int pin, double balance) {
     if(String.valueOf(pin).length() == 4){
-    this.pin = pin;}
-    else{
+    this.pin = pin;
+  }  else{
       System.out.println("Pin must be 4 digits");
     }
     this.balance = balance;
