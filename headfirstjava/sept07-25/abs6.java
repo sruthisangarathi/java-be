@@ -15,7 +15,6 @@ class SavingsAcc extends BankAccount {
       balance += amount;
       System.out.println("Savings deposit: " + amount + ", Balance: " + balance);
   }
-  
   void withdraw(double amount) {
       if (amount <= balance) {
           balance -= amount;
