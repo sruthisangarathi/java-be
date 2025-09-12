@@ -26,5 +26,5 @@ public class polymo7 {
     a1.turnOn();
     a2.turnOn();
 }
-  
+
 }
