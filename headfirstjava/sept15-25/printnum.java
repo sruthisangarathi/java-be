@@ -19,18 +19,31 @@ public class printnum {
     int y=sc.nextInt();
     for(int k=1;k<=10;k++){
       System.out.println(+y+"x"+k+"="+(y*k));
-      sc.close();
     }
 
     //sum of first 10 natural numbers
-    int sum=0,i=0;
-    // for(int i=0;i<=10;i++){
-    //  sum += i;
-    // }
-    while(i <= 10) {
-      sum += i;
-      i++;
+    int sum=0;
+    for(int l=0;l<=10;l++){
+     sum += l;
+    }
+    // while(i <= 10) {
+    //   sum += i;
+    //   i++;
     System.out.println(sum);
-  }
-  }
+
+    //factorial
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        long fact = 1; 
+        for(int z = 1; z <= n; z++) {
+            fact *= z; 
+        }
+        System.out.println("Factorial of " + n + " = " + fact);
+        sc.close();
+    }
+    
 }
+
+
+  
+  
