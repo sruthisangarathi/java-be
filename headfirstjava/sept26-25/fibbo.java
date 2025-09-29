@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class fibbo {
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Enter last num :");
+    int n=sc.nextInt();
+    System.out.print("Enter first num :");
+    int a=sc.nextInt();
+    System.out.print("Enter second num :");
+    int b=sc.nextInt();
+    System.out.print(a+" "+b+" ");
+    for(int i=2;i<n;i++){
+      int c=a+b;
+      System.out.println(c+" ");
+      a=b;
+      b=c;
+     
+    }
+   
+    sc.close();
+  }
+}
