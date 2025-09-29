@@ -18,7 +18,7 @@ class Employee{
   }
 
   public boolean setSalary(double salary){
-    if(salary>10000){
+    if(salary>=10000){
       this.salary=salary;
       return true;
     }else{

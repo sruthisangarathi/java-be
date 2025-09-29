@@ -7,7 +7,6 @@ public class bottlesong {
       word="Bottles";
     }
     System.out.println(bottlesNum+" green "+word+" hanging on the wall");
-    System.out.println(bottlesNum+" green "+word+" hanging on the wall");
     System.out.println("And if one green bottle should accidentally fall,");
     bottlesNum=bottlesNum-1;
       if (bottlesNum > 0) {
